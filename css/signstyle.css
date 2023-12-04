@@ -1,0 +1,73 @@
+@import url(./variable.css);
+@import url(./reset.css);
+
+body {
+    margin: 0;
+    font-family: var(--ff-inter);
+    background-color: var(--rich-black-fogra-29);
+    color: var(--off-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    padding: var(--px);
+    text-align: center;
+}
+
+.sign-in {
+    background-color: var(--oxford-blue-50);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px var(--light-azure);
+}
+
+.sign-in-heading {
+    font-size: var(--section-heading);
+    margin-bottom: 30px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--white);
+    color: var(--rich-black-fogra-30);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--light-azure);
+    color: var(--off-white);
+    font-size: var(--fs-md);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--light-azure);
+}
