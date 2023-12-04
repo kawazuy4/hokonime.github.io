@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hokonime</title>
+        <link rel="icon" type="image/png" href="./assets/images/icon.png">
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/media_query.css">
+        <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header class="">
+                <div class="navbar">
+                    <button class="navbar-menu-btn">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </button>
+
+                    <a href="#" class="navbar-brand">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    
+                    <nav class="">
+                        <ul class="navbar-nav">
+                            <li> <a href="#home" class="navbar-link">Home</a></li>
+                            <li> <a class="navbar-link" onclick="smoothScroll('#category')">Category</a></li>
+                            <li> <a class="navbar-link indicator" onclick="smoothScroll('#live')">Live</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="navbar-actions">
+                        <form action="#" class="navbar-form">
+                            <input type="text" name="search" placeholder="I'd like to watch..." class="navbar-form-search">
+
+                            <button class="navbar-form-btn">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </button>
+                            <button class="navbar-form-close">
+                                <ion-icon name="close-circle-outline"></ion-icon>
+                            </button>
+                        </form>
+                        
+                        <button class="navbar-search-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                        
+                        <a href="sign.html" class="navbar-signin">
+                            <span>Sign in</span>
+                            <ion-icon name="log-in-outline"></ion-icon>
+                        </a>
+                    </div>
+
+                </div>
+            </header>
+
+            <main>
+                <section class="banner">
+                    <div class="banner-slider">
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/madokamovie.mp4&title=Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari"><img src="./assets/images/叛逆の物語.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Mahou Shoujo/Psychological</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2013</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>1h 56m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/guren lagann.mp4&title=Tengen Toppa Gurren Lagann Movie 2: Lagann-hen"><img src="./assets/images/天元突破グレンラガン 螺巌篇.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Mecha/Action</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2009</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>2h 5m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Tengen Toppa Gurren Lagann Movie 2: Lagann-hen</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/summer wars.mp4&title=Summer Wars"><img src="./assets/images/サマーウォーズ.jpeg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Sci-fi/Comedy</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2009</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>1h 54m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Summer Wars</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/youjo senki.mp4&title=Youjo Senki Movie"><img src="./assets/images/幼女戦記.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Action/Military</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2019</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>1h 38m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Youjo Senki Movie</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/suzume.mp4&title=Suzume no Tojimari"><img src="./assets/images/すずめの戸締まり.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Adventure/Fantasy</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2022</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>2h 1m</span>
+                                </div>
+
+                                <div class="quality">4K</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Suzume no Tojimari</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/cots.mp4&title=Kaijuu no Kodomo"><img src="./assets/images/海獣の子供.webp" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Drama/Supernatural</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2019</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>1h 51m</span>
+                                </div>
+
+                                <div class="quality">4K</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Kaijuu no Kodomo</h2>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/penguin highway.mp4&title=Penguin Highway"><img src="./assets/images/ペンギン・ハイウェイ.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Mystery/Fantasy</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2018</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>1h 58m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Penguin Highway</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="banner-card">
+                        
+                        <a href="player.html?film=./assets/videos/lwa.mp4&title=Little Witch Academia: Mahoujikake no Parade"><img src="./assets/images/リトルウィッチアカデミア 魔法仕掛けのパレード.jpg" class="banner-img" alt=""></a>
+
+                        <div class="card-content">
+                            <div class="card-info">
+                                <div class="genre">
+                                    <ion-icon name="film"></ion-icon>
+                                    <span>Adventure/Fantasy</span>
+                                </div>
+
+                                <div class="year">
+                                    <ion-icon name="calendar"></ion-icon>
+                                    <span>2015</span>
+                                </div>
+
+                                <div class="duration">
+                                    <ion-icon name="time"></ion-icon>
+                                    <span>53m</span>
+                                </div>
+
+                                <div class="quality">Ultra HD</div>
+                                
+                            </div>
+
+                            <h2 class="card-title">Little Witch Academia: Mahoujikake no Parade</h2>
+
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <button id="prevBtn" class="slider-btn"><ion-icon name="caret-back-outline"></ion-icon></button>
+                    <button id="nextBtn" class="slider-btn"><ion-icon name="caret-forward-outline"></ion-icon></button>
+                </section>
+
+                <section class="movies">
+
+                    <div class="filter-bar">
+                        <div class="filter-dropdown">
+
+                            <select name="genre" class="genre">
+                                <option value="all genres">All genres</option>
+                                <option value="action">Action</option>
+                                <option value="adventure">Adventure</option>
+                                <option value="comedy">Comedy</option>
+                                <option value="drama">Drama</option>
+                                <option value="fantasy">Fantasy</option>
+                                <option value="horror">Horror</option>
+                                <option value="mecha">Mecha</option>
+                                <option value="military">Military</option>
+                                <option value="mystery">Mystery</option>
+                                <option value="psychological">Psychological</option>
+                                <option value="sol">Slice of Life</option>
+                                <option value="supernatural">Supernatural</option>
+                            </select>
+
+                            <select name="year" class="year">
+                                <option value="all years">All years</option>
+                                <option value="2023">2023</option>
+                                <option value="2020-2022">2020-2022</option>
+                                <option value="2010-2019">2010-2019</option>
+                                <option value="2000-2009">2000-2009</option>
+                                <option value="1990-1999">1990-1999</option>
+                            </select>
+                        </div>
+
+                        <button class="filter-reset" id="resetButton">Reset</button>
+
+                        <div class="filter-radios">
+                            <input type="radio" name="grade" id="featured">
+                            <label for="featured">Featured</label>
+                            
+                            <input type="radio" name="grade" id="popular">
+                            <label for="popular">Popular</label>
+                            
+                            <input type="radio" name="grade" id="newest">
+                            <label for="newest">Newest</label>
+                        </div>
+                        
+                    </div>
+
+                    <div id="moviesGrid" class="movies-grid">
+                        <div class="movie-card" data-genre="drama" data-year="2010-2019" data-status="featured">
+                            <div class="card-head">
+                                    <img src="./assets/images/movies/聲の形.jpg" alt="" class="card-img">
+                           
+                                <a href="player.html?film=./assets/videos/koenokatachi.mp4&title=A Silent Voice">
+                                    <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.93</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/koenokatachi.mp4&title=A Silent Voice">
+                            <div class="card-body">
+                                <h3 class="card-title">A Silent Voice</h3>
+                                <div class="card-info">
+                                    <span class="genre">Drama</span>
+                                    <span class="year">2016</span>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        
+                        <div class="movie-card" data-genre="drama" data-year="2020-2022" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/劇場版 ヴァイオレット・エヴァーガーデン.jpg" alt="" class="card-img">
+
+                            <a href="player.html?film=./assets/videos/violet.mp4&title=Violet Evergarden Movie">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.88</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/violet.mp4&title=Violet Evergarden Movie">
+                            <div class="card-body">
+                                <h3 class="card-title">Violet Evergarden Movie</h3>
+                                <div class="card-info">
+                                    <span class="genre">Drama</span>
+                                    <span class="year">2020</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="drama" data-year="2010-2019" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/君の名は。.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/yourname.mp4&title=Your Name.">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.84</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/yourname.mp4&title=Your Name.">
+                            <div class="card-body">
+                                <h3 class="card-title">Your Name.</h3>
+                                <div class="card-info">
+                                    <span class="genre">Drama</span>
+                                    <span class="year">2016</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="supernatural" data-year="2000-2009" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/千と千尋の神隠し.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/spiritedaway.mp4&title=Spirited Away">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.77</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <div class="card-body">
+                                <h3 class="card-title">Spirited Away</h3>
+                                <div class="card-info">
+                                    <span class="genre">Supernatural</span>
+                                    <span class="year">2001</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="movie-card" data-genre="adventure" data-year="2020-2022" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/劇場版メイドインアビス 深き魂の黎明.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/madeinabyss.mp4&title=Made in Abyss Movie 3">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.62</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/madeinabyss.mp4&title=Made in Abyss Movie 3">
+                            <div class="card-body">
+                                <h3 class="card-title">Made in Abyss Movie 3</h3>
+                                <div class="card-info">
+                                    <span class="genre">Adventure</span>
+                                    <span class="year">2020</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="mystery" data-year="2010-2019" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/涼宮ハルヒの消失.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/haruhi.mp4&title=The Disappearance of Haruhi Suzumiya">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.60</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/haruhi.mp4&title=The Disappearance of Haruhi Suzumiya">
+                            <div class="card-body">
+                                <h3 class="card-title">The Disappearance of Haruhi Suzumiya</h3>
+                                <div class="card-info">
+                                    <span class="genre">Mystery</span>
+                                    <span class="year">2010</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="psychological" data-year="1990-1999" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/新世紀エヴァンゲリオン劇場版.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/eva.mp4&title=The End of Evangelion">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.55</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/eva.mp4&title=The End of Evangelion">
+                            <div class="card-body">
+                                <h3 class="card-title">The End of Evangelion</h3>
+                                <div class="card-info">
+                                    <span class="genre">Psychological</span>
+                                    <span class="year">1997</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card"  data-genre="horror" data-year="2000-2009" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/パプリカ.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/paprika.mp4&title=Paprika">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.04</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/paprika.mp4&title=Paprika">
+                            <div class="card-body">
+                                <h3 class="card-title">Paprika</h3>
+                                <div class="card-info">
+                                    <span class="genre">Horror</span>
+                                    <span class="year">2006</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card"  data-genre="military" data-year="2010-2019" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/ガールズ&パンツァー 劇場版.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/GuP.mp4&title=Girls und Panzer Gekijouban">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.18</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/GuP.mp4&title=Girls und Panzer Gekijouban">
+                            <div class="card-body">
+                                <h3 class="card-title">Girls und Panzer Gekijouban</h3>
+                                <div class="card-info">
+                                    <span class="genre">Military</span>
+                                    <span class="year">2015</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="sol" data-year="2020-2022" data-status="newest">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/映画 ゆるキャン△.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/yurucamp.mp4&title=Yuru Camp Movie">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.44</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/yurucamp.mp4&title=Yuru Camp Movie">
+                            <div class="card-body">
+                                <h3 class="card-title">Yuru Camp Movie</h3>
+                                <div class="card-info">
+                                    <span class="genre">Slice of Life</span>
+                                    <span class="year">2022</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="fantasy" data-year="2010-2019" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/ノーゲーム・ノーライフ ゼロ.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/ngnlz.mp4&title=No Game No Life: Zero">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.19</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/ngnlz.mp4&title=No Game No Life: Zero">
+                            <div class="card-body">
+                                <h3 class="card-title">No Game No Life: Zero</h3>
+                                <div class="card-info">
+                                    <span class="genre">Fantasy</span>
+                                    <span class="year">2017</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="action" data-year="2020-2022" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/劇場版 鬼滅の刃 無限列車編.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/kny.mp4&title=Kimetsu no Yaiba Movie: Mugen Ressha-hen">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.60</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/kny.mp4&title=Kimetsu no Yaiba Movie: Mugen Ressha-hen">
+                            <div class="card-body">
+                                <h3 class="card-title">Kimetsu no Yaiba Movie: Mugen Ressha-hen</h3>
+                                <div class="card-info">
+                                    <span class="genre">Action</span>
+                                    <span class="year">2020</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="sol" data-year="2010-2019" data-status="featured">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/映画 けいおん！.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/k on.mp4&title=K-On! Movie">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>8.35</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/k on.mp4&title=K-On! Movie">
+                            <div class="card-body">
+                                <h3 class="card-title">K-On! Movie</h3>
+                                <div class="card-info">
+                                    <span class="genre">Slice of Life</span>
+                                    <span class="year">2011</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="movie-card" data-genre="comedy" data-year="2001" data-status="popular">
+                            <div class="card-head">
+                                <img src="./assets/images/movies/映画　クレヨンしんちゃん　嵐を呼ぶモーレツ！オトナ帝国の逆襲.jpg" alt="" class="card-img">
+
+                                <a href="player.html?film=./assets/videos/shinchan.mp4&title=Crayon Shin-chan Movie 09">
+                                <div class="card-overlay">
+                                    <div class="bookmark">
+                                        <ion-icon name="bookmark-outline"></ion-icon>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                        <span>7.86</span>
+                                    </div>
+
+                                    <div class="play">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                </a>
+
+                            </div>
+
+                            <a href="player.html?film=./assets/videos/shinchan.mp4&title=Crayon Shin-chan Movie 09">
+                            <div class="card-body">
+                                <h3 class="card-title">Crayon Shin-chan Movie 09</h3>
+                                <div class="card-info">
+                                    <span class="genre">Comedy</span>
+                                    <span class="year">2001</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <button id="toggleButton" class="load-more">Load More...</button>
+
+                </section>
+
+                <section class="category" id="category">
+                    
+                    <h2 class="section-heading">Category</h2>
+                    
+                    <div class="category-grid">
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img  src="./assets/images/action.jpg" alt="" class="card-img">
+                            <div class="name">Action</div>
+                            <div class="total">104</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/drama.jpg" alt="" class="card-img">
+                            <div class="name">Drama</div>
+                            <div class="total">86</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/mecha.png" alt="" class="card-img">
+                            <div class="name">Mecha</div>
+                            <div class="total">141</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/comedy.png" alt="" class="card-img">
+                            <div class="name">Comedy</div>
+                            <div class="total">110</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/sliceoflife.jpg" alt="" class="card-img">
+                            <div class="name">Slice of Life</div>
+                            <div class="total">68</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/adventure.jpg" alt="" class="card-img">
+                            <div class="name">Adventure</div>
+                            <div class="total">155</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/military.jpg" alt="" class="card-img">
+                            <div class="name">Military</div>
+                            <div class="total">54</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/horror.jpg" alt="" class="card-img">
+                            <div class="name">Horror</div>
+                            <div class="total">88</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                            <div class="category-card">
+                                <img src="./assets/images/fantasy.png" alt="" class="card-img">
+                                <div class="name">Fantasy</div>
+                                <div class="total">270</div>
+                            </div>
+                            </a>
+
+                        <a href="animelist.html" class="">
+                        <div class="category-card">
+                            <img src="./assets/images/mystery.jpg" alt="" class="card-img">
+                            <div class="name">Mystery</div>
+                            <div class="total">99</div>
+                        </div>
+                        </a>
+
+                        <a href="animelist.html" class="">
+                            <div class="category-card">
+                                <img src="./assets/images/psychological.jpg" alt="" class="card-img">
+                                <div class="name">Psychological</div>
+                                <div class="total">120</div>
+                            </div>
+                            </a>
+                        
+                        <a href="animelist.html" class="">
+                            <div class="category-card">
+                                <img src="./assets/images/supernatural.png" alt="" class="card-img">
+                                <div class="name">Supernatural</div>
+                                <div class="total">124</div>
+                            </div>
+                            </a>
+
+                    </div>
+                </section>
+
+                <section class="live" id="live">
+                    <h2 class="section-heading">Live Anime</h2>
+                    
+                    <div class="live-grid">
+
+                        <div class="live-card">
+                            <a href="player_live.html?film=./assets/videos/killua.mp4&title=Hunter x Hunter 2011">
+                            <div class="card-head">
+                                <img src="./assets/images/hunterhunter.png" alt="" class="card-img">
+                                <div class="live-badge">LIVE</div>
+                                <div class="total-viewers">27K viewers</div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                            </a>
+
+                            <a href="player_live.html?film=./assets/videos/killua.mp4&title=Hunter x Hunter 2011">
+                                <div class="card-body">
+                                    <img src="./assets/images/muse.png" alt="" class="avatar">
+                                    <h3 class="card-title">Hunter x Hunter 2011</h3>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="live-card">
+                            <a href="player_live.html?film=./assets/videos/frieren.mp4&title=Frieren: Beyond Journey's End">
+                            <div class="card-head">
+                                <img src="./assets/images/frieren.jpg" alt="" class="card-img">
+                                <div class="live-badge">LIVE</div>
+                                <div class="total-viewers">35K viewers</div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                            </a>
+
+                            <a href="player_live.html?film=./assets/videos/frieren.mp4&title=Frieren: Beyond Journey's End">
+                                <div class="card-body">
+                                    <img src="./assets/images/crunchyroll.png" alt="" class="avatar">
+                                    <h3 class="card-title">Frieren: Beyond Journey's End</h3>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="live-card">
+                            <a href="player_live.html?film=./assets/videos/jujutsu.mp4&title=Jujutsu Kaisen">
+                            <div class="card-head">
+                                <img src="./assets/images/jujutsukaisen.png" alt="" class="card-img">
+                                <div class="live-badge">LIVE</div>
+                                <div class="total-viewers">39K viewers</div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="player_live.html?film=./assets/videos/jujutsu.mp4&title=Jujutsu Kaisen">
+                            <div class="card-body">
+                                    <img src="./assets/images/bilibili.jpg" alt="" class="avatar">
+                                    <h3 class="card-title">Jujutsu Kaisen</h3>
+                            </div>
+                        </a>
+                        </div>
+
+
+                    </div>
+
+                </section>
+                
+            </main>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img src="./assets/images/logo.png" alt="" class="footer-logo">
+                        <p class="slogan">Anime Cinema and Japanese Culture Appreciation for you anywhere, anytime.</p>
+
+                        <div class="social-link">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <ul>
+                            <h4 class="link-heading">Hokonime</h4>
+                            <li class="link-item"><a href="#">About</a></li>
+                            <li class="link-item"><a href="#">Profile</a></li>
+                            <li class="link-item"><a href="#">Pricing plans</a></li>
+                            <li class="link-item"><a href="#">Contacts</a></li>
+                        </ul>
+
+                        <ul>
+                            <h4 class="link-heading">Browse</h4>
+                            <li class="link-item"><a href="#">Live Anime</a></li>
+                            <li class="link-item"><a href="#">Live Vtubers</a></li>
+                            <li class="link-item"><a href="#">Japanese Radio</a></li>
+                            <li class="link-item"><a href="#">Streaming Library</a></li>
+                        </ul>
+
+                        <ul>
+                            <h4 class="link-heading">Help</h4>
+                            <li class="link-item"><a href="#">Account & Billing</a></li>
+                            <li class="link-item"><a href="#">Plans & Pricing</a></li>
+                            <li class="link-item"><a href="#">Supported devices</a></li>
+                            <li class="link-item"><a href="#">Collections</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="footer-copyright">
+                    <div class="copyright">
+                        <p>&copy; Copyright 2023 Falavanime</p>
+                    </div>
+
+                    <div class="wrapper">
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Terms and conditions</a>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+    </body>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/player.js"></script>
+    <script src="./javascript/smoothScroll.js"></script>
+    <script src="./javascript/bannerSlider.js"></script>
+    <script src="./javascript/loadmore.js"></script>
+    <script src="./javascript/filterDropDown.js"></script>
+    <script src="./javascript/filterRadio.js"></script>
+    <script src="./javascript/filterReset.js"></script>
+</html>
