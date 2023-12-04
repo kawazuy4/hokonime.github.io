@@ -175,6 +175,15 @@
         grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     }
 
+    .player-container {
+        flex-direction: column;
+    } 
+
+    .synopsis {
+        max-width: 800px;
+        align-self: center;
+    }
+
 
 }
 
