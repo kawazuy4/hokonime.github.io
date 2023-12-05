@@ -788,7 +788,7 @@ ul .link-item:not(:last-child) {
     z-index: inherit; 
 }
 
-.live-comments {
+.text-container {
     max-width: 1000px;
     max-height: 600px;
     margin: 55px;
@@ -800,16 +800,39 @@ ul .link-item:not(:last-child) {
     box-shadow: var(--azure);
 }
 
+.text-container h3 {
+    text-align: center;
+}
+
+.live-comments {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 450px;
+    padding: 10px;
+    border-color: var(--dark-azure);
+    border-radius: 5px;
+    background-color: var(--rich-black-fogra-29);
+    overflow: hidden;
+    box-shadow: var(--azure);
+}
+
 .comments-container {
     animation: scrollComments 20s linear infinite;
 }
 
-.comment {
+.comment{
     margin-bottom: 10px;
     padding: 5px;
     background-color:var(--rich-black-fogra-29);
     border: 1px solid var(--dark-azure);
     border-radius: 3px;
+}
+
+.comment-input {
+    color: var(--white);
+    align-items: center;
+    margin-right: 100px;
+    padding: 10px;
 }
 
 .user {

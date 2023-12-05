@@ -175,6 +175,10 @@
         grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     }
 
+    .container-live {
+        max-width: 1000px;
+    }
+
     .player-container {
         flex-direction: column;
     } 
@@ -209,8 +213,18 @@
             box-shadow: none;
         }
 
-        .container-live {
+        .film-player, .container-live {
             flex-direction: column;
+        }
+
+        .text-container {
+            margin-top: 0px;
+            max-width: 1000px;
+            align-self: center;
+        }
+
+        .synopsis {
+            margin-top: 0px;
         }
 
     }
@@ -274,5 +288,9 @@
 
     .wrapper {
         margin-bottom: 20px;
+    }
+
+    .synopsis {
+        margin: 10px;
     }
 }
