@@ -64,7 +64,7 @@
     </header>
 
     <div class="container-live">
-    <div class="film-player">
+        <div class="film-player">
         <video class="videoPlayer" id="videoPlayer" controls autoplay muted>
             <source id="videoSource" src="" type="video/mp4">
             Your browser does not support the video tag.
@@ -72,10 +72,12 @@
         <div class="live-indicator">LIVE</div>
         <h2 id="movieTitle"></h2>
         
-    </div>
+        </div>
 
-    <div class="live-comments">
-        <div class="comments-container">
+        <div class="text-container">
+            <h3>Live Comments</h3>
+            <div class="live-comments">
+                <div class="comments-container">
             <div class="comment">
                 <div class="user">OtakuFan21</div>
                 <div class="message">This anime is so intense! Love the plot twists.</div>
@@ -153,8 +155,10 @@
                 <div class="message">This anime gives me so much nostalgia!</div>
             </div>  
             
+                </div>
+            </div>
+            <input type="text" id="userComment" placeholder="Add your comment..." class="comment-input">
         </div>
-    </div>
     </div>
     
     <footer>
