@@ -876,6 +876,10 @@ ul .link-item:not(:last-child) {
     line-height: 2;
 }
 
+.anime-title:hover {
+    cursor: pointer;
+}
+
 /* Manga List */
 
 .main-content {
