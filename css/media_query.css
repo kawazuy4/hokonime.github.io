@@ -293,4 +293,8 @@
     .synopsis {
         margin: 10px;
     }
+
+    .container .sign-in {
+        max-width: 500px;
+    }
 }
